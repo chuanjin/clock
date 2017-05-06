@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(0, 200, 10, 0.1);
+}
+
+#clock {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px #2ecc71 solid;
+    position: relative;
+    overflow: hidden;
+}
+
+#status {
+    width: 100%;
+    padding-top: 10px;
+    padding: auto;
+    text-align: center;
+    color: rgba(20, 10, 220, 0.5);
+    font-size: 20px;
+}
+
+#timing {
+    width: 100%;
+    padding-top: 30px;
+    padding: auto;
+    text-align: center;
+    color: rgba(200, 80, 0, 0.5);
+    font-size: 40px;
+}
+
+h2 {
+    display: inline;
+}
+
+#start {
+    margin: 10px;
+}

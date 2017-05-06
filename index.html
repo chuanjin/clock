@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
+    <script src="clock.js" charset="utf-8"></script>
+
+    <audio id="buzzer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+
+    <div class="text-center">
+        <h1>Pomodoro Clock</h1>
+        <div class="workDiv">
+            <h1>Work Time</h1>
+            <a href="#" class="btn btn-default" id="decWorkTime">-</a>
+            <h2 id="workTime">25</h2>
+            <a href="#" class="btn btn-default" id="incWorkTime">+</a>
+        </div>
+
+        <div class="breakDiv">
+            <h1>Break Time</h1>
+            <a href="#" class="btn btn-default" id="decBreakTime">-</a>
+            <h2 id="breakTime">5</h2>
+            <a href="#" class="btn btn-default" id="incBreakTime">+</a>
+        </div>
+
+        <a href="#" class="btn btn-success" id="start">start</a>
+        <a href="#" class="btn btn-danger" id="reset">Reset</a>
+
+        <div id="clock">
+            <div id="status">Work </div>
+            <div id="timing">25 </div>
+        </div>
+    </div>
+</body>
+
+</html>
